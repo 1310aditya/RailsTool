@@ -1,0 +1,132 @@
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Rail TMS</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Rail Tool Managment System</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                     <li>
+                        <a class="page-scroll" href="/">Home</a>
+                    </li>
+		    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">User Login</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Reports</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <!-- <a href='/users/sign_out' data-method='delete'>Sign out</a> -->
+                        <%= link_to "Sign out", destroy_user_session_path, :method => 'delete' %>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Rail Tool Managment System</h1>
+                <hr>
+                <p>Torque Wrenches &nbsp;&bull;&nbsp; Hydraulic &nbsp;&bull;&nbsp; Drilling Stroke &nbsp;&bull;&nbsp; Spindle Speed </p>
+
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header>
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">We are maintaining the records!</h2>
+                    <hr class="light">
+                    <p class="text-faded">We just make management easy and best way to deal with on computer based. It is easy and portabe to handle the complet record here.</p>
+                    <a href="#" class="btn btn-default btn-xl">Go to Home!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" style="background-color: #aba;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">How to get involve with this system</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                        <h3>Registration</h3>
+                        <p class="text-muted">One should log-In, if he/ she is vesiting this first time, can get login  .</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Get Logged In</h3>
+                        <p class="text-muted">You can use this Application after loggin only. Then only you can make changes!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Create & Update</h3>
+                        <p class="text-muted">You can go through your own record like create insert, edit, update etc. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Easy & Enjoy</h3>
+                        <p class="text-muted">You have to make your task easy and faster then this is your best way to get your task done.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Contact Us!</h2>
+                    <hr class="primary">
+                    <p>Ready to start your membership with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:your-email@your-domain.com">feedback@abc.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
